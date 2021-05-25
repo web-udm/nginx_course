@@ -6,6 +6,7 @@ RUN apt update \
     php7.4 \
     php7.4-fpm \
     php7.4-mysql \
-    php7.4-cgi
+    php7.4-cgi \
+    gcc
 
 WORKDIR /sites
